@@ -1,0 +1,20 @@
+# Define the goal
+float32 right_wheel1_vel
+float32 left_wheel2_vel
+float32 left_wheel3_vel
+float32 right_wheel4_vel
+float32 odom_x
+float32 odom_y
+float32 odom_th
+---
+# Define the result
+int32 ok
+---
+# Define a feedback message
+float64 right_wheel1_vel
+float64 left_wheel2_vel
+float64 left_wheel3_vel
+float64 right_wheel4_vel
+float32 odom_x
+float32 odom_y
+float32 odom_th

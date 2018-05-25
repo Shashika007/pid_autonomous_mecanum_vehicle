@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<launch>
+ <node pkg="base_controller_aiv" name="laserscan_multi_merger" type="laserscan_multi_merger" output="screen">
+	</node>
+</launch>
